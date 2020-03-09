@@ -5,11 +5,11 @@
 body {
     font-family: "Roboto", Sans-serif;
     background-image: url(../resources/bg.jpeg);
-    
+    background-color: black;
 }
 
 p {
-    font-family: "Roboto", Sans-serif;
+    font-family: "Oswald", Sans-serif;
     font-size: 1.1em;
     line-height: 1.5em;
     color: black;
@@ -59,7 +59,14 @@ h2{font-size:2.5em;}
 }
 
 .logo img{width: 130px;}
-.logocontainer {width: 10%; position: fixed; top:0; right: 45%; }
+.logocontainer {width: 100%; position: fixed; top:0; left: 10%; }
+
+
+
+.text{text-align: left; color: white; line-height: 1; width: 80%;}
+
+.links { width:80%; top:20%;left:15%;transition-duration: 10s; text-align: left; line-height: 1;opacity: 100%;color: white;}
+li:active {color:blue;}
 
 iframe {
     background-color: transparent;
@@ -75,8 +82,11 @@ iframe {
 }
 
 
-
-
+.socialmedia{
+    position: fixed;
+    bottom: 0;
+    left:15%;
+}
 
 
 
