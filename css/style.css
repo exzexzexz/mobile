@@ -6,8 +6,8 @@ body {
     font-family: "Roboto", Sans-serif;
     background-image: url(../resources/bg.jpeg);
     background-color: black;
-    text-overflow: clip;
-    overflow: hidden
+overflow-y:scroll;
+    overflow-x: hidden;
     height: 100%;
 }
 
@@ -31,10 +31,7 @@ a:focus {
     SIDEBAR STYLE
 ----------------------------------------------------- */
 
-.wrapper {
-    display: flex;
-    width: 100%;
-}
+
 
 h5{font-size:0.7em;}
 h3{font-size:1.5em;}
@@ -47,21 +44,10 @@ h2{font-size:2.5em;}
     CONTENT STYLE
 ----------------------------------------------------- */
 
-#content {
-    width: 95%;
-    height: 100%;
-    right: 2.5%;
-    
-    transition: all 0.3s;
-    position: absolute;
-    
-    opacity: 100%;
-    
-    z-index: 1;
-}
 
-.logo img{width: 130px;}
-.logocontainer {width: 100%; position: fixed; top:0; left: 5%; }
+
+.logo img{width: 100px; margin-left:30%;}
+.logocontainer {width: 100%; position: absolute; top:0; left: 5%; }
 
 
 
