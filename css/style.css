@@ -53,8 +53,8 @@ h2{font-size:2.5em;}
     position: fixed;
     
     background-color: black;
-    opacity: 90%;
-    overflow:hidden;
+    opacity: 100%;
+    
     z-index: 1;
 }
 
@@ -65,7 +65,7 @@ h2{font-size:2.5em;}
 
 .text{text-align: left; color: white; line-height: 1; width: 80%;}
 
-.links { width:80%; top:20%;left:15%;transition-duration: 10s; text-align: left; line-height: 1;opacity: 100%;color: white;}
+.links { width:80%; top:20%;left:15%;transition-duration: 10s; text-align: left; line-height: 1;color: white;}
 li:active {color:blue;}
 
 iframe {
