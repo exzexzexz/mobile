@@ -6,7 +6,9 @@ body {
     font-family: "Roboto", Sans-serif;
     background-image: url(../resources/bg.jpeg);
     background-color: black;
-    overflow: scroll;
+    text-overflow: clip;
+    overflow: hidden
+    height: 100%;
 }
 
 p {
@@ -47,48 +49,26 @@ h2{font-size:2.5em;}
 
 #content {
     width: 95%;
-    height: 110vh;
+    height: 100%;
     right: 2.5%;
     
     transition: all 0.3s;
     position: absolute;
     
-    background-color: black;
     opacity: 100%;
     
     z-index: 1;
 }
 
 .logo img{width: 130px;}
-.logocontainer {width: 100%; position: absolute; top:0; left: 10%; }
+.logocontainer {width: 100%; position: fixed; top:0; left: 5%; }
 
 
 
-.text{text-align: left; color: white; line-height: 1; width: 80%;   
+.text{
+text-align: left; color: white; line-height: 1; width: 90%; background-color: black; padding: 1em; padding-top:10em;padding-bottom:5em;margin-top: -10em;
 }
 
-.links { width:80%; top:20%;left:15%;transition-duration: 10s; text-align: left; line-height: 1;color: white;}
-li:active {color:blue;}
-
-iframe {
-    background-color: transparent;
-    margin-bottom:2%;
-
-    height: calc(24vw*(16/9));
-    margin-left: 0%;
-    border: none; 
-    padding-bottom: 0em;
-    max-width: 100%;
-    
-    
-}
-
-
-.socialmedia{
-    position: fixed;
-    bottom: 0;
-    left:15%;
-}
 
 
 
